@@ -8,6 +8,8 @@
 }
 
 .social_card {
+  $border: 4px;
+
   position: relative;
   flex: 0 0 calc(25% - 30px);
   overflow: hidden;
@@ -15,10 +17,13 @@
   margin: 15px;
   padding: 30px 25px;
   text-align: center;
-
-  $border: 4px;
   border-radius: $border;
   background-color: $background-card;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $background-card___hover;
+  }
 
   &:before {
     content: "";
