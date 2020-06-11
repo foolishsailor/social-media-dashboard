@@ -1,4 +1,7 @@
+@import "./base/reset";
 @import "./variables";
-@import "./base";
+@import "./base/base";
 @import "./layout";
+@import "./components/header";
+@import "./components/cards";
 @import "./components/toggle";
