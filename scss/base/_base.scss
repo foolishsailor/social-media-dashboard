@@ -9,6 +9,8 @@ body {
 
 a,
 h1,
+h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -22,12 +24,32 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 375px) {
+    margin: 25px;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: $text-dark;
+  font-weight: 700;
 }
 
 h1 {
   margin-bottom: 0.6rem;
   font-size: 2.2rem;
-  color: $text-dark;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 2.2rem;
 }
 
 a {

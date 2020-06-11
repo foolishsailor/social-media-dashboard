@@ -13,7 +13,7 @@
   overflow: hidden;
   box-sizing: border-box;
   margin: 15px;
-  padding: 30px;
+  padding: 30px 25px;
   text-align: center;
 
   $border: 4px;
@@ -27,6 +27,10 @@
     left: 0;
     right: 0;
     height: $border;
+  }
+
+  @media (max-width: $mobile_breakpoint) {
+    flex: 0 0 calc(100% - 30px);
   }
 }
 
@@ -81,4 +85,19 @@
 }
 .social_card___youTube::before {
   background: $youTube;
+}
+
+.social_card__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.social_card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }

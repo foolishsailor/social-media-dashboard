@@ -2,6 +2,8 @@
   $radius_outer: 24px;
   $radius_inner: 18px;
 
+  margin-left: 10px;
+
   .toggle_switch__switch {
     position: relative;
     display: inline-block;
@@ -18,7 +20,7 @@
       }
 
       &:checked + .toggle_switch__toggle:before {
-        transform: translateX(24px);
+        transform: translateX(-24px);
       }
     }
   }
@@ -42,7 +44,7 @@
       content: "";
       width: $radius_inner;
       height: $radius_inner;
-      left: 3px;
+      right: 3px;
       top: 3px;
       border-radius: $radius_inner;
       background-color: $background;
