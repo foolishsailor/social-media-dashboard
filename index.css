@@ -466,7 +466,7 @@ img {
   font-weight: 700;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -475,13 +475,13 @@ img {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .header h1 {
     font-size: 1.8rem;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .header__social_container {
     padding-bottom: 25px;
     border-bottom: solid 1px var(--text-light);
@@ -500,7 +500,7 @@ img {
           align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .header__toggle {
     margin-top: 20px;
     -webkit-box-pack: justify;
