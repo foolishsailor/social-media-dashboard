@@ -554,7 +554,7 @@ img {
   height: 4px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .social_card {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 calc(100% - 30px);
