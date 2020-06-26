@@ -449,6 +449,14 @@ img {
   margin: 0 auto;
 }
 
+@media (max-width: 450px) {
+  .container {
+    width: inherit;
+    max-width: inherit;
+    margin: 30px;
+  }
+}
+
 .header {
   position: relative;
   display: -webkit-box;
@@ -709,3 +717,4 @@ img {
   -webkit-transform: translateX(calc(100% + 6px));
           transform: translateX(calc(100% + 6px));
 }
+/*# sourceMappingURL=index.css.map */

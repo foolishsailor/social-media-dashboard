@@ -2,4 +2,10 @@
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
+
+  @media (max-width: $mobile_breakpoint) {
+    width: inherit;
+    max-width: inherit;
+    margin: 30px;
+  }
 }

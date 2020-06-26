@@ -1,4 +1,7 @@
-# Social media dashboard with theme switcher
+# Responsive social media dashboard with theme switcher
 
-![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+![Desktop dark version](./desktop-dark.jpg)
 
+![Mobile Design light](./desktop-dark.jpg)
+
+![Live Here](https://social-media-dashboard-eight-green.now.sh/)
