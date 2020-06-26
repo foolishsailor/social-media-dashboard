@@ -4,4 +4,4 @@
 
 ![Mobile Design light](./design/mobile-design-light.jpg)
 
-![Live Here](https://social-media-dashboard-eight-green.now.sh)
+[Live Here](https://social-media-dashboard-eight-green.now.sh) 
